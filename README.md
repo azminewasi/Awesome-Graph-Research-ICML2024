@@ -1,6 +1,12 @@
 # **Awesome ICML 2024 Graph Paper Collection**
 
-This repo contains a comprehensive compilation of graph papers that were presented at the esteemed International Conference on Machine Learning in the year 2024. Graph or Geometric machine learning possesses an indispensable role within the domain of machine learning research, providing invaluable insights, methodologies, and solutions to a diverse array of challenges and problems. Whether it entails pioneering architectures, optimization techniques, theoretical analyses, or empirical investigations, these papers make substantial contributions towards the advancement of the field. All the papers categorised in different subtopics.
+This repo contains a comprehensive compilation of graph papers that were presented at the International Conference on Machine Learning in the year 2024. Graph or Geometric machine learning possesses an indispensable role within the domain of machine learning research, providing invaluable insights, methodologies, and solutions to a diverse array of challenges and problems. 
+
+We've got around 250-300 papers focusing on Graphs and GNNs in ICML'24.
+The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterophily, and Expressivity. There's also a good amount of casual graph works, which is more than I expected. We have some very good physics-inspired research too. Application papers are plentiful, although I expected to see more in molecular, chemical GNNs or some GFlowNet derivatives; due to recent hype. Reinforcement Learning also had a good boost this year.
+
+I've got some grouping tasks left and hope to wrap them up soon! Have a look and throw me a review (and, a star, maybe!) Thanks!
+
 
 # **All Topics:** 
 - [GNN Theories](#theories)
