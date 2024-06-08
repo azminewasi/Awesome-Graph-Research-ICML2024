@@ -108,11 +108,11 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Expressivity and Generalization: Fragment-Biases for Molecular GNNs](https://openreview.net/forum?id=rPm5cKb1VB)
 - [On the Expressive Power of Spectral Invariant Graph Neural Networks](https://openreview.net/forum?id=kmugaw9Kfq)
 - [The Expressive Power of Path-Based Graph Neural Networks](https://openreview.net/forum?id=io1XSRtcO8)
-- [Weisfeiler-Leman at the margin: When more expressivity matters](https://openreview.net/forum?id=HTNgNt8CTJ)
 - [On the Expressive Power of Spectral Invariant Graph Neural Networks](https://openreview.net/forum?id=kmugaw9Kfq)
 - [An Empirical Study of Realized GNN Expressiveness](https://openreview.net/forum?id=WIaZFk02fI)
 
 #### Generalization
+- [Weisfeiler-Leman at the margin: When more expressivity matters](https://openreview.net/forum?id=HTNgNt8CTJ)
 - [Generalization Error of Graph Neural Networks in the Mean-field Regime](https://openreview.net/forum?id=8h0x12p3zq)
 - [On the Generalization of Equivariant Graph Neural Networks](https://openreview.net/forum?id=Yqj3DzIC79)
 - [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
