@@ -74,7 +74,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Gaussian Processes on Cellular Complexes](https://openreview.net/forum?id=afnyJfQddk)
 - [An Efficient Maximal Ancestral Graph Listing Algorithm](https://openreview.net/forum?id=MZkqjV4FRT)
 - [Extending Test-Time Augmentation with Metamorphic Relations for Combinatorial Problems](https://openreview.net/forum?id=PNsdnl8blk)
-
 - [Graph Positional and Structural Encoder](https://openreview.net/forum?id=UTSCK582Yo)
 - [Class-Imbalanced Graph Learning without Class Rebalancing](https://openreview.net/forum?id=pPnkpvBeZN)
 - [Translating Subgraphs to Nodes Makes Simple GNNs Strong and Efficient for Subgraph Representation Learning](https://openreview.net/forum?id=xSizvCoI79)
@@ -365,7 +364,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [On dimensionality of feature vectors in MPNNs](https://openreview.net/forum?id=UjDp4Wkq2V)
 - [Multiplicative Weights Update, Area Convexity and Random Coordinate Descent for Densest Subgraph Problems](https://openreview.net/forum?id=d2E2i5rJ4x)
 - [A Fixed-Point Approach for Causal Generative Modeling](https://openreview.net/forum?id=JpzIGzru5F)
-
 - [Stable Differentiable Causal Discovery](https://openreview.net/forum?id=JJZBZW28Gn)
 - [Neural Tangent Kernels Motivate Cross-Covariance Graphs in Neural Networks](https://openreview.net/forum?id=61JD8wp4Id)
 - [Scalable and Flexible Causal Discovery with an Efficient Test for Adjacency](https://openreview.net/forum?id=5M4Qa9AqY7)
