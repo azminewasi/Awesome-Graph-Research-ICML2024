@@ -3,63 +3,33 @@
 This repo contains a comprehensive compilation of graph papers that were presented at the esteemed International Conference on Machine Learning in the year 2024. Graph or Geometric machine learning possesses an indispensable role within the domain of machine learning research, providing invaluable insights, methodologies, and solutions to a diverse array of challenges and problems. Whether it entails pioneering architectures, optimization techniques, theoretical analyses, or empirical investigations, these papers make substantial contributions towards the advancement of the field. All the papers categorised in different subtopics.
 
 # **All Topics:** 
+- [GNN Theories](#theories)
+  - [Expressivity](#Expressivity)
+  - [Generalization](#Generalization)
+  - [Equivariant Graph Neural Networks](#Equivariant)
+- [Graph Generation](#ggen)
 - [GNNs for PDE/ODE/Physics](#PDE)
 - [Graph and Large Language Models/Agents](#LLM)
 - [Graph Condensation](#Graph-Condensation)
 - [Graph Meta-learning](#GraphMeta-learning)
 - [Knowledge Graph and Knowledge Graph Embeddings]($KG)
-- [GNN Theories](#theories)
 - [GNN Applications](#apps)
 - [Spatial and/or Temporal GNNs](#SpatialTemporalGNNs)
 - [Explainable AI](#xai)
 - [Reinforcement Learning](#rl)
 - [Graphs, Molecules and Biology](#molecular)
+- [Casual Graphs](#casual)
+- [Federated Learning](#FL)
 
-
-<a name="PDE" />
-
-## GNNs for PDE/ODE/Physics
-- [Graph Neural PDE Solvers with Conservation and Similarity-Equivariance](https://openreview.net/forum?id=WajJf47TUi)
-- [Neural SPH: Improved Neural Modeling of Lagrangian Fluid Dynamics](https://openreview.net/forum?id=Pbey7LqBRl)
-- [Locality-Sensitive Hashing-Based Efficient Point Transformer with Applications in High-Energy Physics](https://openreview.net/forum?id=vJx6fld6l0)
-- [PGODE: Towards High-quality System Dynamics Modeling](https://openreview.net/forum?id=jrE7geZekq)
-- [Prometheus: Out-of-distribution Fluid Dynamics Modeling with Disentangled Graph ODE](https://openreview.net/forum?id=JsPvL6ExK8)
-- [Equivariant Graph Neural Operator for Modeling 3D Dynamics](https://openreview.net/forum?id=dccRCYmL5x)
-- [HAMLET: Graph Transformer Neural Operator for Partial Differential Equations](https://openreview.net/forum?id=nYX7I6PsL7)
-
-<a name="LLM" />
-
-## Graph and Large Language Models/Agents
-- [Graph-enhanced Large Language Models in Asynchronous Plan Reasoning](https://openreview.net/forum?id=eVGpdivOnQ)
-- [GPTSwarm: Language Agents as Optimizable Graphs](https://openreview.net/forum?id=uTC9AFXIhg)
-- [Case-Based or Rule-Based: How Do Transformers Do the Math?](https://openreview.net/forum?id=4Vqr8SRfyX)
-
-
-
-<a name="Graph-Condensation" />
-
-## Graph Condensation
-- [Navigating Complexity: Toward Lossless Graph Condensation via Expanding Window Matching](https://openreview.net/forum?id=gE7qZurGH3)
-
-<a name="GraphMeta-learning" />
-
-## Graph Meta-learning
-- [Unsupervised Episode Generation for Graph Meta-learning](https://openreview.net/forum?id=9zdTOOgutk)
-
-<a name="KG" />
-
-## Knowledge Graph and Knowledge Graph Embeddings
-- [Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization](https://openreview.net/forum?id=Sv4u9PtvT5)
 
 <a name="theories" />
 
-## GNN Theories and Applications
+## GNN Theories 
 - [GNNs Also Deserve Editing, and They Need It More Than Once](https://openreview.net/forum?id=rIc9adYbH2)
 - [Learning Divergence Fields for Shift-Robust Graph Representations](https://openreview.net/forum?id=jPaEOH56JB)
 - [Probabilistic Routing for Graph-Based Approximate Nearest Neighbor Search](https://openreview.net/forum?id=pz4B2kHVKo)
 - [Graph Geometry-Preserving Autoencoders](https://openreview.net/forum?id=acTLXagzqd)
 - [Stereographic Spherical Sliced Wasserstein Distances](https://openreview.net/forum?id=vLtVGtEz5h)
-- [An Empirical Study of Realized GNN Expressiveness](https://openreview.net/forum?id=WIaZFk02fI)
 - [Perfect Alignment May be Poisonous to Graph Contrastive Learning](https://openreview.net/forum?id=wdezvnc9EG)
 - [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
 - [Sparse-IFT: Sparse Iso-FLOP Transformations for Maximizing Training Efficiency](https://openreview.net/forum?id=X8Ha2NiQcy)
@@ -76,8 +46,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Disentangled Continual Graph Neural Architecture Search with Invariant Modular Supernet](https://openreview.net/forum?id=Hg7C5YYifi)
 - [Graph Neural Networks with a Distribution of Parametrized Graphs](https://openreview.net/forum?id=VyfEv6EjKR)
 - [Cooperative Graph Neural Networks](https://openreview.net/forum?id=ZQcqXCuoxD)
-- [On the Expressive Power of Spectral Invariant Graph Neural Networks](https://openreview.net/forum?id=kmugaw9Kfq)
-- [The Expressive Power of Path-Based Graph Neural Networks](https://openreview.net/forum?id=io1XSRtcO8)
 - [Generalization Error of Graph Neural Networks in the Mean-field Regime](https://openreview.net/forum?id=8h0x12p3zq)
 - [Networked Inequality: Preferential Attachment Bias in Graph Neural Network Link Prediction](https://openreview.net/forum?id=GhPFmTJNfj)
 - [EvoluNet: Advancing Dynamic Non-IID Transfer Learning on Graphs](https://openreview.net/forum?id=anM1M5aoM8)
@@ -87,8 +55,27 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [On the Generalization of Equivariant Graph Neural Networks](https://openreview.net/forum?id=Yqj3DzIC79)
 - [Improving Equivariant Graph Neural Networks on Large Geometric Graphs  via Virtual Nodes Learning](https://openreview.net/forum?id=wWdkNkUY8k)
 
+#### Expressivity
+- [Expressivity and Generalization: Fragment-Biases for Molecular GNNs](https://openreview.net/forum?id=rPm5cKb1VB)
+- [On the Expressive Power of Spectral Invariant Graph Neural Networks](https://openreview.net/forum?id=kmugaw9Kfq)
+- [The Expressive Power of Path-Based Graph Neural Networks](https://openreview.net/forum?id=io1XSRtcO8)
+- [Weisfeiler-Leman at the margin: When more expressivity matters](https://openreview.net/forum?id=HTNgNt8CTJ)
+- [On the Expressive Power of Spectral Invariant Graph Neural Networks](https://openreview.net/forum?id=kmugaw9Kfq)
+- [An Empirical Study of Realized GNN Expressiveness](https://openreview.net/forum?id=WIaZFk02fI)
+
+#### Generalization
+- [Generalization Error of Graph Neural Networks in the Mean-field Regime](https://openreview.net/forum?id=8h0x12p3zq)
+- [On the Generalization of Equivariant Graph Neural Networks](https://openreview.net/forum?id=Yqj3DzIC79)
+- [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
+- [What Improves the Generalization of Graph Transformers? A Theoretical Dive into the Self-attention and Positional Encoding](https://openreview.net/forum?id=mJhXlsZzzE)
+- [Semantically-correlated memories in a dense associative model](https://openreview.net/forum?id=l0OGoZPZuC)
+- [Improved Stability and Generalization Guarantees of the Decentralized SGD Algorithm](https://openreview.net/forum?id=JKPhWzp7Oi)
+- [PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning](https://openreview.net/forum?id=sOyJSNUrzQ)
+- [Beyond the Federation: Topology-aware Federated Learning for Generalization to Unseen Clients](https://openreview.net/forum?id=2zLt2Odckx)
+- [A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design](https://openreview.net/forum?id=1KemC8DNa0)
 
 
+<a name="Equivariant" />
 
 #### Equivariant Graph Neural Networks
 - [On the Generalization of Equivariant Graph Neural Networks](https://openreview.net/forum?id=Yqj3DzIC79)
@@ -123,6 +110,41 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [UniCorn: A Unified Contrastive Learning Approach for Multi-view Molecular Representation Learning](https://openreview.net/forum?id=2NfpFwJfKu)
 - [Community-Invariant Graph Contrastive Learning](https://openreview.net/forum?id=dskLpg8WFb)
 
+<a name="PDE" />
+
+## GNNs for PDE/ODE/Physics
+- [Graph Neural PDE Solvers with Conservation and Similarity-Equivariance](https://openreview.net/forum?id=WajJf47TUi)
+- [Neural SPH: Improved Neural Modeling of Lagrangian Fluid Dynamics](https://openreview.net/forum?id=Pbey7LqBRl)
+- [Locality-Sensitive Hashing-Based Efficient Point Transformer with Applications in High-Energy Physics](https://openreview.net/forum?id=vJx6fld6l0)
+- [PGODE: Towards High-quality System Dynamics Modeling](https://openreview.net/forum?id=jrE7geZekq)
+- [Prometheus: Out-of-distribution Fluid Dynamics Modeling with Disentangled Graph ODE](https://openreview.net/forum?id=JsPvL6ExK8)
+- [Equivariant Graph Neural Operator for Modeling 3D Dynamics](https://openreview.net/forum?id=dccRCYmL5x)
+- [HAMLET: Graph Transformer Neural Operator for Partial Differential Equations](https://openreview.net/forum?id=nYX7I6PsL7)
+
+<a name="LLM" />
+
+## Graph and Large Language Models/Agents
+- [Graph-enhanced Large Language Models in Asynchronous Plan Reasoning](https://openreview.net/forum?id=eVGpdivOnQ)
+- [GPTSwarm: Language Agents as Optimizable Graphs](https://openreview.net/forum?id=uTC9AFXIhg)
+- [Case-Based or Rule-Based: How Do Transformers Do the Math?](https://openreview.net/forum?id=4Vqr8SRfyX)
+- [SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code](https://openreview.net/forum?id=gAyzjHw2ml)
+- [LLaGA: Large Language and Graph Assistant](https://openreview.net/forum?id=B48Pzc4oKi)
+
+<a name="Graph-Condensation" />
+
+## Graph Condensation
+- [Navigating Complexity: Toward Lossless Graph Condensation via Expanding Window Matching](https://openreview.net/forum?id=gE7qZurGH3)
+
+<a name="GraphMeta-learning" />
+
+## Graph Meta-learning
+- [Unsupervised Episode Generation for Graph Meta-learning](https://openreview.net/forum?id=9zdTOOgutk)
+
+<a name="KG" />
+
+## Knowledge Graph and Knowledge Graph Embeddings
+- [Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization](https://openreview.net/forum?id=Sv4u9PtvT5)
+- [PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning](https://openreview.net/forum?id=sOyJSNUrzQ)
 
 
 <a name="SpatialTemporalGNNs" />
@@ -137,7 +159,13 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Graph-based Time Series Clustering for End-to-End Hierarchical Forecasting](https://openreview.net/forum?id=nd47Za5jk5)
 
 
+<a name="ggen" />
 
+## Graph Generation
+- [Scene Graph Generation Strategy with Co-occurrence Knowledge and Learnable Term Frequency](https://openreview.net/forum?id=tTq3qMkJ8w)
+- [Hyperbolic Geometric Latent Diffusion Model for Graph Generation](https://openreview.net/forum?id=6OkvBGqW62)
+- [Diffuse, Sample, Project: Plug-And-Play Controllable Graph Generation](https://openreview.net/forum?id=ia0Z8d1DbY)
+- [Graph Generation with Diffusion Mixture](https://openreview.net/forum?id=cZTFxktg23)
 
 
 <a name="apps" />
@@ -148,8 +176,10 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and Functional Connectivity](https://openreview.net/forum?id=nOjZfpLyh1)
 - [CARTE: Pretraining and Transfer for Tabular Learning](https://openreview.net/forum?id=9kArQnKLDp)
 - [Neurodegenerative Brain Network Classification via Adaptive Diffusion with Temporal Regularization](https://openreview.net/forum?id=GTnn6bNE3j)
-  
-
+- [A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design](https://openreview.net/forum?id=1KemC8DNa0)
+- [Towards an Understanding of Stepwise Inference in Transformers: A Synthetic Graph Navigation Model](https://openreview.net/forum?id=8VEGkphQaK)
+- [Locality-Sensitive Hashing-Based Efficient Point Transformer with Applications in High-Energy Physics](https://openreview.net/forum?id=vJx6fld6l0)
+- [Biharmonic Distance of Graphs and its Higher-Order Variants: Theoretical Properties with Applications to Centrality and Clustering](https://openreview.net/forum?id=3pxMIjB9QK)
 
 
 <a name="xai" />
@@ -157,8 +187,9 @@ This repo contains a comprehensive compilation of graph papers that were present
 ## Explainable AI
 - [Structure Your Data: Towards Semantic Graph Counterfactuals](https://openreview.net/forum?id=OenMwDPqWn)
 - [Temporal Spiking Neural Networks with Synaptic Delay for Graph Reasoning](https://openreview.net/forum?id=3FeYlKIPr3)
-
-
+- [Federated Self-Explaining GNNs with Anti-shortcut Augmentations](https://openreview.net/forum?id=ZxDqSBgFSM)
+- [Explaining Graph Neural Networks via Structure-aware Interaction Index](https://openreview.net/forum?id=2T00oYk54P)
+- [Generating In-Distribution Proxy Graphs for Explaining Graph Neural Networks](https://openreview.net/forum?id=ohG9bVMs5j)
 
 
 <a name="rl" />
@@ -180,30 +211,41 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Generalist Equivariant Transformer Towards 3D Molecular Interaction Learning](https://openreview.net/forum?id=dWxb80a0TW)
 - [UniCorn: A Unified Contrastive Learning Approach for Multi-view Molecular Representation Learning](https://openreview.net/forum?id=2NfpFwJfKu)
 - [Modelling Microbial Communities with Graph Neural Networks](https://openreview.net/forum?id=vBJZ93tvoE)
+- [Structure-Aware E(3)-Invariant Molecular Conformer Aggregation Networks](https://openreview.net/forum?id=qGEEso256L)
+- [Projecting Molecules into Synthesizable Chemical Spaces](https://openreview.net/forum?id=scFlbJQdm1)
 
 
+<a name="casual" />
+
+## Casual Graphs
+- [Causal-IQA: Towards the Generalization of Image Quality Assessment Based on Causal Inference](https://openreview.net/forum?id=gKPkipJ3gm)
+- [Optimal Transport for Structure Learning Under Missing Data](https://openreview.net/forum?id=09Robz3Ppy)
+
+
+
+<a name="FL" />
+
+## Federated Learning
+- [Federated Self-Explaining GNNs with Anti-shortcut Augmentations](https://openreview.net/forum?id=ZxDqSBgFSM)
+- [Beyond the Federation: Topology-aware Federated Learning for Generalization to Unseen Clients](https://openreview.net/forum?id=2zLt2Odckx)
+- [Effective Federated Graph Matching](https://openreview.net/forum?id=rSfzchjIYu)
 
 # Others
-- [Towards Neural Architecture Search through Hierarchical Generative Modeling](https://openreview.net/forum?id=VdZfEMuoj2)
-- [Genie: Generative Interactive Environments](https://openreview.net/forum?id=bJbSbJskOS)
 - [SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code](https://openreview.net/forum?id=gAyzjHw2ml)
 - [Learning Exceptional Subgroups by End-to-End Maximizing KL-Divergence](https://openreview.net/forum?id=AG45XqwPKU)
 - [StrokeNUWATokenizing Strokes for Vector Graphic Synthesis](https://openreview.net/forum?id=eVlx8DaG9h)
 - [GenCO: Generating Diverse Designs with Combinatorial Constraints](https://openreview.net/forum?id=DiyE6OOGBa)
-- [LLaGA: Large Language and Graph Assistant](https://openreview.net/forum?id=B48Pzc4oKi)
 - [Estimating Canopy Height at Scale](https://openreview.net/forum?id=ZzCY0fRver)
 - [Proteus: Exploring Protein Structure Generation for Enhanced Designability and Efficiency](https://openreview.net/forum?id=IckJCzsGVS)
 - [MAGDi: Structured Distillation of Multi-Agent Interaction Graphs Improves Reasoning in Smaller Language Models](https://openreview.net/forum?id=ffLblkoCw8)
 - [CHEMREASONER: Heuristic Search over a Large Language Models Knowledge Space using Quantum-Chemical Feedback](https://openreview.net/forum?id=3tJDnEszco)
 - [Bringing Motion Taxonomies to Continuous Domains via GPLVM on Hyperbolic manifolds](https://openreview.net/forum?id=ndVXXmxSC5)
 - [From Coarse to Fine: Enable Comprehensive Graph Self-supervised Learning with Multi-granular Semantic Ensemble](https://openreview.net/forum?id=JnA9IveEwg)
-- [Projecting Molecules into Synthesizable Chemical Spaces](https://openreview.net/forum?id=scFlbJQdm1)
 - [MGit: A Model Versioning and Management System](https://openreview.net/forum?id=OjBW993g79)
 - [LaMAGIC: Language-Model-based Topology Generation for Analog Integrated Circuits](https://openreview.net/forum?id=MjGCD8wk1k)
 - [MathScale: Scaling Instruction Tuning for Mathematical  Reasoning](https://openreview.net/forum?id=Kjww7ZN47M)
 - [Exploiting Code Symmetries for Learning Program Semantics](https://openreview.net/forum?id=OLvgrLtv6J)
 - [Relational Learning in Pre-Trained Models: A Theory from Hypergraph Recovery Perspective](https://openreview.net/forum?id=puSMYmHmJW)
-- [Scene Graph Generation Strategy with Co-occurrence Knowledge and Learnable Term Frequency](https://openreview.net/forum?id=tTq3qMkJ8w)
 - [PointMC: Multi-instance Point Cloud Registration based on Maximal Cliques](https://openreview.net/forum?id=0JV5WpLQgv)
 - [OxyGenerator: Reconstructing Global Ocean Deoxygenation Over a Century with Deep Learning](https://openreview.net/forum?id=0HUInAsdoo)
 - [Prospector Heads: Generalized Feature Attribution for Large Models & Data](https://openreview.net/forum?id=PjVqEErDgK)
@@ -225,9 +267,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Learning Latent Structures in Network Games via Data-Dependent Gated-Prior Graph Variational Autoencoders](https://openreview.net/forum?id=kKWjZoaRLv)
 - [Open Ad Hoc Teamwork with Cooperative Game Theory](https://openreview.net/forum?id=RlibRvH4B4)
 - [On Online Experimentation without Device Identifiers](https://openreview.net/forum?id=merZTLSdC9)
-- [What Improves the Generalization of Graph Transformers? A Theoretical Dive into the Self-attention and Positional Encoding](https://openreview.net/forum?id=mJhXlsZzzE)
-- [Semantically-correlated memories in a dense associative model](https://openreview.net/forum?id=l0OGoZPZuC)
-- [Improved Stability and Generalization Guarantees of the Decentralized SGD Algorithm](https://openreview.net/forum?id=JKPhWzp7Oi)
 - [Incorporating Information into Shapley Values: Reweighting via a Maximum Entropy Approach](https://openreview.net/forum?id=DwniHlwcOB)
 - [Predicting Lagrangian Multipliers for Mixed Integer Linear Programs](https://openreview.net/forum?id=aZnZOqUOHq)
 - [Weakly Convex Regularisers for Inverse Problems: Convergence of Critical Points and Primal-Dual Optimisation](https://openreview.net/forum?id=E8FpcUyPuS)
@@ -256,12 +295,10 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Exploring Correlations of Self-Supervised Tasks for Graphs](https://openreview.net/forum?id=O3CFN1VIwt)
 - [A Fixed-Point Approach for Causal Generative Modeling](https://openreview.net/forum?id=JpzIGzru5F)
 - [Online Matching with Stochastic Rewards: Provable Better Bound via Adversarial Reinforcement Learning](https://openreview.net/forum?id=TujtZgdRxB)
-- [Weisfeiler-Leman at the margin: When more expressivity matters](https://openreview.net/forum?id=HTNgNt8CTJ)
 - [Stable Differentiable Causal Discovery](https://openreview.net/forum?id=JJZBZW28Gn)
 - [Subhomogeneous Deep Equilibrium Models](https://openreview.net/forum?id=YBXwr7wF7i)
 - [Revealing Vision-Language Integration in the Brain with Multimodal Networks](https://openreview.net/forum?id=pD9BTIDUoX)
 - [Neural Tangent Kernels Motivate Cross-Covariance Graphs in Neural Networks](https://openreview.net/forum?id=61JD8wp4Id)
-- [Structure-Aware E(3)-Invariant Molecular Conformer Aggregation Networks](https://openreview.net/forum?id=qGEEso256L)
 - [On the Maximal Local Disparity of Fairness-Aware Classifiers](https://openreview.net/forum?id=5cm2jGct2W)
 - [Scalable and Flexible Causal Discovery with an Efficient Test for Adjacency](https://openreview.net/forum?id=5M4Qa9AqY7)
 - [Aligning Transformers with Weisfeiler-Leman](https://openreview.net/forum?id=4FJJfYjUQR)
@@ -290,7 +327,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Graph External Attention Enhanced Transformer](https://openreview.net/forum?id=0rV7VIrcjX)
 - [A Graph is Worth $K$ Words: Euclideanizing Graph using Pure Transformer](https://openreview.net/forum?id=zxxSJAVQPc)
 - [Graph Positional and Structural Encoder](https://openreview.net/forum?id=UTSCK582Yo)
-- [Graph Generation with Diffusion Mixture](https://openreview.net/forum?id=cZTFxktg23)
 - [Class-Imbalanced Graph Learning without Class Rebalancing](https://openreview.net/forum?id=pPnkpvBeZN)
 - [Discovering Mixtures of Structural Causal Models from Time Series Data](https://openreview.net/forum?id=cHJAUdam3i)
 - [UP2ME:  Univariate Pre-training to Multivariate Fine-tuning as a General-purpose Framework for Multivariate Time Series Analysis](https://openreview.net/forum?id=aR3uxWlZhX)
@@ -300,7 +336,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Finite Volume Features, Global Geometry Representations, and Residual Training for Deep Learning-based CFD Simulation](https://openreview.net/forum?id=WzD4a5ufN8)
 - [Two Heads Are Better Than One: Boosting Graph Sparse Training via Semantic and Topological Awareness](https://openreview.net/forum?id=WDgV1BJEW0)
 - [Mitigating Oversmoothing Through Reverse Process of GNNs  for Heterophilic Graphs](https://openreview.net/forum?id=RLA4JTckXe)
-- [Diffuse, Sample, Project: Plug-And-Play Controllable Graph Generation](https://openreview.net/forum?id=ia0Z8d1DbY)
 - [Dynamic Spectral Clustering with Provable Approximation Guarantee](https://openreview.net/forum?id=coP4kPdhKr)
 - [DUPLEX: Dual GAT for Complex Embedding of Directed Graphs](https://openreview.net/forum?id=M3uv4qDKOL)
 - [MS-TIP: Imputation Aware Pedestrian Trajectory Prediction](https://openreview.net/forum?id=s4Hy0L4mml)
@@ -318,7 +353,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Privacy Attacks in Decentralized Learning](https://openreview.net/forum?id=mggc3oYHy4)
 - [Verifying message-passing neural networks via topology-based bounds tightening](https://openreview.net/forum?id=nAoiUlz4Bf)
 - [Pruned Pivot: Correlation Clustering Algorithm for Dynamic, Parallel, and Local Computation Models](https://openreview.net/forum?id=saP7s0ZgYE)
-- [PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning](https://openreview.net/forum?id=sOyJSNUrzQ)
 - [Sample Complexity Bounds for Estimating Probability Divergences under Invariances](https://openreview.net/forum?id=sKjcrAC4eZ)
 - [Sign is Not a Remedy: Multiset-to-Multiset Message Passing for Learning on Heterophilic Graphs](https://openreview.net/forum?id=dGDFZM018a)
 - [Tackling Prevalent Conditions in Unsupervised Combinatorial Optimization: Cardinality, Minimum, Covering, and More](https://openreview.net/forum?id=6n99bIxb3r)
@@ -340,7 +374,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Causal Discovery with Fewer Conditional Independence Tests](https://openreview.net/forum?id=HpT19AKddu)
 - [Efficient Contextual Bandits with Uninformed Feedback Graphs](https://openreview.net/forum?id=0vozy8vstt)
 - [LIDAO: Towards Limited Interventions for Debiasing (Large) Language Models](https://openreview.net/forum?id=NsHxeSCtgr)
-- [Explaining Graph Neural Networks via Structure-aware Interaction Index](https://openreview.net/forum?id=2T00oYk54P)
 - [Conditional Common Entropy for Instrumental Variable Testing and Partial Identification](https://openreview.net/forum?id=Wnni3cu39x)
 - [Efficient Contrastive Learning for Fast and Accurate Inference on Graphs](https://openreview.net/forum?id=vsy21Xodrt)
 - [Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better](https://openreview.net/forum?id=FpbKoIPHxb)
@@ -357,12 +390,8 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [Linguistic Calibration of Long-Form Generations](https://openreview.net/forum?id=rJVjQSQ8ye)
 - [Proactive DP: A Multiple Target Optimization Framework for DP-SGD](https://openreview.net/forum?id=1nT6uc3HdY)
 - [Pairwise Alignment Improves Graph Domain Adaptation](https://openreview.net/forum?id=ttnbM598vZ)
-- [Beyond the Federation: Topology-aware Federated Learning for Generalization to Unseen Clients](https://openreview.net/forum?id=2zLt2Odckx)
 - [PDHG-Unrolled Learning-to-Optimize Method for Large-Scale Linear Programming](https://openreview.net/forum?id=2cXzNDe614)
-- [A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design](https://openreview.net/forum?id=1KemC8DNa0)
 - [Cluster-Aware Similarity Diffusion for Instance Retrieval](https://openreview.net/forum?id=qMG3OK7Xcg)
-- [Causal-IQA: Towards the Generalization of Image Quality Assessment Based on Causal Inference](https://openreview.net/forum?id=gKPkipJ3gm)
-- [Hyperbolic Geometric Latent Diffusion Model for Graph Generation](https://openreview.net/forum?id=6OkvBGqW62)
 - [Knowledge-aware Reinforced Language Models for Protein Directed Evolution](https://openreview.net/forum?id=MikandLqtW)
 - [Unraveling the Impact of Heterophilic Structures on Graph Positive-Unlabeled Learning](https://openreview.net/forum?id=NCT3w7VKjo)
 - [Identifiability Matters: Revealing the Hidden Recoverable Condition in Unbiased Learning to Rank](https://openreview.net/forum?id=JU3xHh1vWw)
@@ -375,7 +404,6 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [KnowFormer: Revisiting Transformers for Knowledge Graph Reasoning](https://openreview.net/forum?id=EncFNR3hxM)
 - [Surprisingly Strong Performance Prediction with Neural Graph Features](https://openreview.net/forum?id=EhPpZV6KLk)
 - [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://openreview.net/forum?id=5x788rqbcj)
-- [Federated Self-Explaining GNNs with Anti-shortcut Augmentations](https://openreview.net/forum?id=ZxDqSBgFSM)
 - [Optimal Kernel Choice for Score Function-based Causal Discovery](https://openreview.net/forum?id=DYd4vyyhUu)
 - [Understanding Reasoning Ability of Language Models From the Perspective of Reasoning Paths Aggregation](https://openreview.net/forum?id=dZsEOFUDew)
 - [Robust Inverse Graphics via Probabilistic Inference](https://openreview.net/forum?id=dwWef5w2cR)
@@ -384,8 +412,7 @@ This repo contains a comprehensive compilation of graph papers that were present
 - [SiBBlInGS: Similarity-driven Building-Block Inference using Graphs across States](https://openreview.net/forum?id=h8aTi32tul)
 - [HGCN2SP: Hierarchical Graph Convolutional Network for Two-Stage Stochastic Programming](https://openreview.net/forum?id=8onaVSFTEj)
 - [Subequivariant Reinforcement Learning in 3D Multi-Entity Physical Environments](https://openreview.net/forum?id=hQpUhySEJi)
-- [Towards an Understanding of Stepwise Inference in Transformers: A Synthetic Graph Navigation Model](https://openreview.net/forum?id=8VEGkphQaK)
-- [Optimal Transport for Structure Learning Under Missing Data](https://openreview.net/forum?id=09Robz3Ppy)
+
 
 
 
