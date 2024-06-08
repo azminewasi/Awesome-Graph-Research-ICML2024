@@ -3,72 +3,113 @@
 This repo contains a comprehensive compilation of graph papers that were presented at the esteemed International Conference on Machine Learning in the year 2024. Graph or Geometric machine learning possesses an indispensable role within the domain of machine learning research, providing invaluable insights, methodologies, and solutions to a diverse array of challenges and problems. Whether it entails pioneering architectures, optimization techniques, theoretical analyses, or empirical investigations, these papers make substantial contributions towards the advancement of the field. All the papers categorised in different subtopics.
 
 # **All Topics:** 
-- [Graph Neural PDE Solvers](#PDE)
+- [GNNs for PDE/ODE/Physics](#PDE)
 - [Graph and Large Language Models/Agents](#LLM)
 - [Graph Condensation](#Graph-Condensation)
 - [Graph Meta-learning](#GraphMeta-learning)
 - [Knowledge Graph and Knowledge Graph Embeddings]($KG)
-- [GNN Theories and Applications](#theories)
+- [GNN Theories](#theories)
+- [GNN Applications](#apps)
+- [Spatial and Temporal GNNs](#SpatialTemporalGNNs)
+- [Explainable AI](#xai)
+- [Reinforcement Learning](#rl)
+- [Graphs and Molecules](#molecular)
+
+
 
 
 <a name="PDE" />
-## Graph Neural PDE Solvers 
+
+## GNNs for PDE/ODE/Physics
 - [Graph Neural PDE Solvers with Conservation and Similarity-Equivariance](https://openreview.net/forum?id=WajJf47TUi)
+- [Neural SPH: Improved Neural Modeling of Lagrangian Fluid Dynamics](https://openreview.net/forum?id=Pbey7LqBRl)
+- [Locality-Sensitive Hashing-Based Efficient Point Transformer with Applications in High-Energy Physics](https://openreview.net/forum?id=vJx6fld6l0)
+
 
 <a name="LLM" />
+
 ## Graph and Large Language Models/Agents
 - [Graph-enhanced Large Language Models in Asynchronous Plan Reasoning](https://openreview.net/forum?id=eVGpdivOnQ)
 - [GPTSwarm: Language Agents as Optimizable Graphs](https://openreview.net/forum?id=uTC9AFXIhg)
 - [Case-Based or Rule-Based: How Do Transformers Do the Math?](https://openreview.net/forum?id=4Vqr8SRfyX)
 
+
+
 <a name="Graph-Condensation" />
+
 ## Graph Condensation
 - [Navigating Complexity: Toward Lossless Graph Condensation via Expanding Window Matching](https://openreview.net/forum?id=gE7qZurGH3)
 
 <a name="GraphMeta-learning" />
+
 ## Graph Meta-learning
 - [Unsupervised Episode Generation for Graph Meta-learning](https://openreview.net/forum?id=9zdTOOgutk)
 
 <a name="KG" />
+
 ## Knowledge Graph and Knowledge Graph Embeddings
 - [Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization](https://openreview.net/forum?id=Sv4u9PtvT5)
 
 <a name="theories" />
+
 ## GNN Theories and Applications
 - [GNNs Also Deserve Editing, and They Need It More Than Once](https://openreview.net/forum?id=rIc9adYbH2)
 - [Learning Divergence Fields for Shift-Robust Graph Representations](https://openreview.net/forum?id=jPaEOH56JB)
-- [Unlocking the Power of Spatial and Temporal Information in Medical Multimodal Pre-training](https://openreview.net/forum?id=87ZrVHDqmR)
 - [Probabilistic Routing for Graph-Based Approximate Nearest Neighbor Search](https://openreview.net/forum?id=pz4B2kHVKo)
-- [SleepFM: Multi-modal Representation Learning for Sleep Across Brain Activity, ECG and Respiratory Signals](https://openreview.net/forum?id=QXqXGDapkQ)
-- [Neural SPH: Improved Neural Modeling of Lagrangian Fluid Dynamics](https://openreview.net/forum?id=Pbey7LqBRl)
-- [ConTextual: Evaluating Context-Sensitive Text-Rich Visual Reasoning in Large Multimodal Models](https://openreview.net/forum?id=PjiRSyUt7e)
-- [Structure Your Data: Towards Semantic Graph Counterfactuals](https://openreview.net/forum?id=OenMwDPqWn)
-- [Locality-Sensitive Hashing-Based Efficient Point Transformer with Applications in High-Energy Physics](https://openreview.net/forum?id=vJx6fld6l0)
-- [NDOT: Neuronal Dynamics-based Online Training for Spiking Neural Networks](https://openreview.net/forum?id=elF0QoBSFV)
 - [Graph Geometry-Preserving Autoencoders](https://openreview.net/forum?id=acTLXagzqd)
 - [Stereographic Spherical Sliced Wasserstein Distances](https://openreview.net/forum?id=vLtVGtEz5h)
-- [Toward Adaptive Reasoning in Large Language Models with Thought Rollback](https://openreview.net/forum?id=aoAPOOtN9E)
 - [An Empirical Study of Realized GNN Expressiveness](https://openreview.net/forum?id=WIaZFk02fI)
 - [Perfect Alignment May be Poisonous to Graph Contrastive Learning](https://openreview.net/forum?id=wdezvnc9EG)
 - [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
-- [Tackling Non-Stationarity in Reinforcement Learning via Causal-Origin Representation](https://openreview.net/forum?id=WLGWMDtj8L)
-- [FairProof : Confidential and Certifiable Fairness for Neural Networks](https://openreview.net/forum?id=EKye56rLuv)
-- [Latent Optimal Paths by Gumbel Propagation for Variational Bayesian Dynamic Programming](https://openreview.net/forum?id=VSwrXRqD9o)
 - [Sparse-IFT: Sparse Iso-FLOP Transformations for Maximizing Training Efficiency](https://openreview.net/forum?id=X8Ha2NiQcy)
 - [Collective Certified Robustness against Graph Injection Attacks](https://openreview.net/forum?id=DhxZVq1ZOo)
 - [Graph Distillation with Eigenbasis Matching](https://openreview.net/forum?id=DYN66IJCI9)
-- [Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks](https://openreview.net/forum?id=7rTbqkKvA6)
-- [Swallowing the Bitter Pill: Simplified Scalable Conformer Generation](https://openreview.net/forum?id=I44Em5D5xy)
-- [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://openreview.net/forum?id=FPnUhsQJ5B)
-- [Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and Functional Connectivity](https://openreview.net/forum?id=nOjZfpLyh1)
-- [SiT:   Symmetry-invariant Transformers for Generalisation in Reinforcement Learning](https://openreview.net/forum?id=SWrwurHAeq)
-- [ReGAL: Refactoring Programs to Discover Generalizable Abstractions](https://openreview.net/forum?id=FovMAzXUpj)
 - [Graph Structure Extrapolation for Out-of-Distribution Generalization](https://openreview.net/forum?id=Xgrey8uQhr)
-- [Triplet Interaction Improves Graph Transformers: Accurate Molecular Graph Learning with Triplet Graph Transformers](https://openreview.net/forum?id=iPFuWc1TV2)
 - [Learning Iterative Reasoning through Energy Diffusion](https://openreview.net/forum?id=CduFAALvGe)
+
+
+<a name="SpatialTemporalGNNs" />
+
+## Spatial and Temporal GNNs
+- [Unlocking the Power of Spatial and Temporal Information in Medical Multimodal Pre-training](https://openreview.net/forum?id=87ZrVHDqmR)
+
+<a name="apps" />
+
+## GNN Applications
+- [SleepFM: Multi-modal Representation Learning for Sleep Across Brain Activity, ECG and Respiratory Signals](https://openreview.net/forum?id=QXqXGDapkQ)
+- [Predicting and Interpreting Energy Barriers of Metallic Glasses with Graph Neural Networks](https://openreview.net/forum?id=7rTbqkKvA6)
+- [Unsupervised Representation Learning of Brain Activity via Bridging Voxel Activity and Functional Connectivity](https://openreview.net/forum?id=nOjZfpLyh1)
 - [CARTE: Pretraining and Transfer for Tabular Learning](https://openreview.net/forum?id=9kArQnKLDp)
-- [ILILT: Implicit Learning of Inverse Lithography Technologies](https://openreview.net/forum?id=b0lxGL2n3d)
+
+
+  
+<a name="xai" />
+
+## Explainable AI
+- [Structure Your Data: Towards Semantic Graph Counterfactuals](https://openreview.net/forum?id=OenMwDPqWn)
+
+
+<a name="rl" />
+
+## Reinforcement Learning
+- [Tackling Non-Stationarity in Reinforcement Learning via Causal-Origin Representation](https://openreview.net/forum?id=WLGWMDtj8L)
+- [SiT:   Symmetry-invariant Transformers for Generalisation in Reinforcement Learning](https://openreview.net/forum?id=SWrwurHAeq)
+
+
+<a name="molecular" />
+
+## Graphs and Molecules
+- [Swallowing the Bitter Pill: Simplified Scalable Conformer Generation](https://openreview.net/forum?id=I44Em5D5xy)
+- [Triplet Interaction Improves Graph Transformers: Accurate Molecular Graph Learning with Triplet Graph Transformers](https://openreview.net/forum?id=iPFuWc1TV2)
 - [Representing Molecules as Random Walks Over Interpretable Grammars](https://openreview.net/forum?id=gS3nc9iUrH)
+
+
+
+
+
+
+
+# in Progress
 - [Towards Neural Architecture Search through Hierarchical Generative Modeling](https://openreview.net/forum?id=VdZfEMuoj2)
 - [Genie: Generative Interactive Environments](https://openreview.net/forum?id=bJbSbJskOS)
 - [SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code](https://openreview.net/forum?id=gAyzjHw2ml)
