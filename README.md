@@ -430,11 +430,11 @@ I've got some grouping tasks left and hope to wrap them up soon! Have a look and
 
 
 
-
+---
 
 
 **Missing any paper?**
-If any paper is absent from the list, please feel free to [open an issue](https://github.com/azminewasi/Awesome-Graph-Research-ICML2024/issues/new/choose) or submit a pull request. I'll gladly add that!
+If any paper is absent from the list, please feel free to [open an issue](https://github.com/azminewasi/Awesome-Graph-Research-ICML2024/issues/new/choose) or submit a pull request. I'll gladly add that! Also, If I mis-categorized, please knock!
 
 ---
 
