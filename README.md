@@ -2,7 +2,7 @@
 
 This repo contains a comprehensive compilation of graph papers that were presented at the International Conference on Machine Learning in the year 2024. Graph or Geometric machine learning possesses an indispensable role within the domain of machine learning research, providing invaluable insights, methodologies, and solutions to a diverse array of challenges and problems. 
 
-**Short Overview**: We've got around 250-300 papers focusing on Graphs and GNNs in ICML'24.
+**Short Overview**: We've got around 250 papers focusing on Graphs and GNNs in ICML'24.
 The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterophily, and Expressivity. There's also a good amount of casual graph works, which is more than I expected. We have some very good physics-inspired research too. Application papers are plentiful, although I expected to see more in molecular, chemical GNNs or some GFlowNet derivatives; due to recent hype. Reinforcement Learning also had a good boost this year.
 **Have a look and throw me a review (and, a star ⭐, maybe!)** Thanks!
 
@@ -10,7 +10,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 ## **All Topics:** 
 
 <details>
-  <summary>View Topic list!</summary>
+  <summary><b>View Topic list!</b></summary>
 
 - [GNN Theories](#theories)
   - [Weisfeiler Leman](#Weisfeiler-Leman )
@@ -115,7 +115,6 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 <a name="OOD" />
 
 #### Out-of-Distribution
-- [Learning Iterative Reasoning through Energy Diffusion](https://openreview.net/forum?id=CduFAALvGe)
 - [Graph Structure Extrapolation for Out-of-Distribution Generalization](https://openreview.net/forum?id=Xgrey8uQhr)
 - [When and How Does In-Distribution Label Help Out-of-Distribution Detection?](https://openreview.net/forum?id=knhbhDLdry)
 - [Graph Out-of-Distribution Detection Goes Neighborhood Shaping](https://openreview.net/forum?id=pmcusTywXO)
@@ -147,6 +146,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Hyperbolic Geometric Latent Diffusion Model for Graph Generation](https://openreview.net/forum?id=6OkvBGqW62)
 - [Diffuse, Sample, Project: Plug-And-Play Controllable Graph Generation](https://openreview.net/forum?id=ia0Z8d1DbY)
 - [Graph Generation with Diffusion Mixture](https://openreview.net/forum?id=cZTFxktg23)
+- [Learning Iterative Reasoning through Energy Diffusion](https://openreview.net/forum?id=CduFAALvGe)
 
 
 #### Clustering
