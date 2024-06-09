@@ -43,7 +43,7 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [Explainable AI](#xai)
 - [Reinforcement Learning](#rl)
 - [Graphs, Molecules and Biology](#molecular)
-  - [GFlowNets](#GFlowNets)
+- [GFlowNets](#GFlowNets)
 - [Casual Discovery and Graphs](#casual)
 - [Federated Learning, Privacy, Decentralization](#FL)
 - [Scene Graphs](#SceneGraphs)
@@ -409,7 +409,7 @@ A lot of [application](#apps) papers are available, although I expected to see m
 
 <a name="GFlowNets" />
 
-#### **GFlowNets**
+## **GFlowNets**
 - [Latent Logic Tree Extraction for Event Sequence Explanation from LLMs](https://openreview.net/forum?id=pwfcwEqdUz)
 - [GFlowNet Training by Policy Gradients](https://openreview.net/forum?id=G1igwiBBUj)
 - [Embarrassingly Parallel GFlowNets](https://openreview.net/forum?id=KJhLpzqNri)
