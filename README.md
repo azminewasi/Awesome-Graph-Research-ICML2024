@@ -3,7 +3,8 @@
 This repo contains a comprehensive compilation of graph papers that were presented at the International Conference on Machine Learning in the year 2024. Graph or Geometric machine learning possesses an indispensable role within the domain of machine learning research, providing invaluable insights, methodologies, and solutions to a diverse array of challenges and problems. 
 
 **Short Overview**: We've got around 250 papers focusing on Graphs and GNNs in ICML'24.
-The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterophily, and Expressivity. There's also a good amount of casual graph works, which is more than I expected. We have some very good physics-inspired research too. Application papers are plentiful, although I expected to see more in molecular, chemical GNNs or some GFlowNet derivatives; due to recent hype. Reinforcement Learning also had a good boost this year.
+The core themes of this year include [equivariant GNNs](#Equivariant), [OODs](#OOD), [diffusions](#Diffusion), [heterophily](#Heterophily), [expressivity](#Expressivity), and [clustering](#Clustering). There's also a good amount of [casual graph](#casual) works, more than I expected. We have some very good [physics-inspired](#PDE) research too. 
+A lot of [application](#apps) papers are available, although I expected to see more in [molecular, chemical GNNs](#molecular) and [GFlowNets](#GFlowNets). [Reinforcement learning](#RL) also had a good boost this year.
 **Have a look and throw me a review (and, a star ⭐, maybe!)** Thanks!
 
 
@@ -20,6 +21,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
   - [Generalization](#Generalization)
   - [Equivariant Graph Neural Networks](#Equivariant)
   - [Out-of-Distribution](#OOD)
+  - [Diffusion](#Diffusion)
   - [Graph Matching](#GraphMatching)
   - [Contrastive Learning](#ContrastiveLearning)
   - [Clustering](#Clustering)
@@ -41,6 +43,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Explainable AI](#xai)
 - [Reinforcement Learning](#rl)
 - [Graphs, Molecules and Biology](#molecular)
+  - [GFlowNets](#GFlowNets)
 - [Casual Discovery and Graphs](#casual)
 - [Federated Learning, Privacy, Decentralization](#FL)
 - [Scene Graphs](#SceneGraphs)
@@ -254,10 +257,8 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Graph Distillation with Eigenbasis Matching](https://openreview.net/forum?id=DYN66IJCI9)
 - [Graph Neural Networks Use Graphs When They Shouldn't](https://openreview.net/forum?id=fSNHK7mu3j)
 - [Quantum Positional Encodings for Graph Neural Networks](https://openreview.net/forum?id=IW45Dr1Kxi)
-- [Generating In-Distribution Proxy Graphs for Explaining Graph Neural Networks](https://openreview.net/forum?id=ohG9bVMs5j)
 - [SLOG: An Inductive Spectral Graph Neural Network Beyond Polynomial Filter](https://openreview.net/forum?id=0SrNCSklZx)
 - [How Interpretable Are Interpretable Graph Neural Networks?](https://openreview.net/forum?id=F3G2udCF3Q)
-- [Graph Neural Network Explanations are Fragile](https://openreview.net/forum?id=qIOSNyPPwB)
 - [Graph Neural Networks with a Distribution of Parametrized Graphs](https://openreview.net/forum?id=VyfEv6EjKR)
 - [Cooperative Graph Neural Networks](https://openreview.net/forum?id=ZQcqXCuoxD)
 - [Generalization Error of Graph Neural Networks in the Mean-field Regime](https://openreview.net/forum?id=8h0x12p3zq)
@@ -318,7 +319,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [LLaGA: Large Language and Graph Assistant](https://openreview.net/forum?id=B48Pzc4oKi)
 - [MAGDi: Structured Distillation of Multi-Agent Interaction Graphs Improves Reasoning in Smaller Language Models](https://openreview.net/forum?id=ffLblkoCw8)
 - [CHEMREASONER: Heuristic Search over a Large Language Models Knowledge Space using Quantum-Chemical Feedback](https://openreview.net/forum?id=3tJDnEszco)
-
+- [Latent Logic Tree Extraction for Event Sequence Explanation from LLMs](https://openreview.net/forum?id=pwfcwEqdUz)
 
 
 <a name="KG" />
@@ -378,6 +379,8 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Explaining Graph Neural Networks via Structure-aware Interaction Index](https://openreview.net/forum?id=2T00oYk54P)
 - [Generating In-Distribution Proxy Graphs for Explaining Graph Neural Networks](https://openreview.net/forum?id=ohG9bVMs5j)
 - [EiG-Search: Generating Edge-Induced Subgraphs for GNN Explanation in Linear Time](https://openreview.net/forum?id=HO0g6cHVZx)
+- [Graph Neural Network Explanations are Fragile](https://openreview.net/forum?id=qIOSNyPPwB)
+
 
 
 <a name="rl" />
@@ -403,6 +406,14 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Proteus: Exploring Protein Structure Generation for Enhanced Designability and Efficiency](https://openreview.net/forum?id=IckJCzsGVS)
 - [CHEMREASONER: Heuristic Search over a Large Language Models Knowledge Space using Quantum-Chemical Feedback](https://openreview.net/forum?id=3tJDnEszco)
 
+
+<a name="GFlowNets" />
+
+#### **GFlowNets**
+- [Latent Logic Tree Extraction for Event Sequence Explanation from LLMs](https://openreview.net/forum?id=pwfcwEqdUz)
+- [GFlowNet Training by Policy Gradients](https://openreview.net/forum?id=G1igwiBBUj)
+- [Embarrassingly Parallel GFlowNets](https://openreview.net/forum?id=KJhLpzqNri)
+- [Learning to Scale Logits for Temperature-Conditional GFlowNets](https://openreview.net/forum?id=GUEsK9xJny)
 
 
 
