@@ -7,7 +7,11 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 **Have a look and throw me a review (and, a star ⭐, maybe!)** Thanks!
 
 
-# **All Topics:** 
+## **All Topics:** 
+
+<details>
+  <summary>View Topic list!</summary>
+
 - [GNN Theories](#theories)
   - [Weisfeiler Leman](#Weisfeiler-Leman )
   - [Heterophily](#Heterophily)
@@ -27,6 +31,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
   - [Graph Generation](#ggen)
   - [Unsupervised Learning](#UL)
   - [Meta-learning](#GraphMeta-learning)
+  - [Disentanglement](#Disentanglement)
   - [Others](#GNNT-others)
 - [GNNs for PDE/ODE/Physics](#PDE)
 - [Graph and Large Language Models/Agents](#LLM)
@@ -41,6 +46,10 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Scene Graphs](#SceneGraphs)
 - [Position Papers](#PositionPapers)
 - [Others](#Others)
+
+</details>
+
+
 
 <a name="theories" />
 
@@ -114,7 +123,6 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Disentangled Graph Self-supervised Learning for Out-of-Distribution Generalization](https://openreview.net/forum?id=OS0szhkPmF)
 - [Bounded and Uniform Energy-based Out-of-distribution Detection for Graphs](https://openreview.net/forum?id=mjh7AOWozN)
 - [Prometheus: Out-of-distribution Fluid Dynamics Modeling with Disentangled Graph ODE](https://openreview.net/forum?id=JsPvL6ExK8)
-
 
 <a name="GraphMatching" />
 
@@ -220,7 +228,16 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 #### Graph Meta-learning
 - [Unsupervised Episode Generation for Graph Meta-learning](https://openreview.net/forum?id=9zdTOOgutk)
 
-<a name="GNNT-others />
+
+#### Disentanglement
+- [Prometheus: Out-of-distribution Fluid Dynamics Modeling with Disentangled Graph ODE](https://openreview.net/forum?id=JsPvL6ExK8)
+- [Disentangled Graph Self-supervised Learning for Out-of-Distribution Generalization](https://openreview.net/forum?id=OS0szhkPmF)
+- [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
+- [Disentangled Continual Graph Neural Architecture Search with Invariant Modular Supernet](https://openreview.net/forum?id=Hg7C5YYifi)
+- [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
+
+
+<a name="GNNT-others" />
 
 #### GNN Theory : Others
 - [GNNs Also Deserve Editing, and They Need It More Than Once](https://openreview.net/forum?id=rIc9adYbH2)
@@ -231,7 +248,6 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [Graph Geometry-Preserving Autoencoders](https://openreview.net/forum?id=acTLXagzqd)
 - [Stereographic Spherical Sliced Wasserstein Distances](https://openreview.net/forum?id=vLtVGtEz5h)
 - [Perfect Alignment May be Poisonous to Graph Contrastive Learning](https://openreview.net/forum?id=wdezvnc9EG)
-- [Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning](https://openreview.net/forum?id=0NdU4y9dWC)
 - [Sparse-IFT: Sparse Iso-FLOP Transformations for Maximizing Training Efficiency](https://openreview.net/forum?id=X8Ha2NiQcy)
 - [Prospector Heads: Generalized Feature Attribution for Large Models & Data](https://openreview.net/forum?id=PjVqEErDgK)
 - [Collective Certified Robustness against Graph Injection Attacks](https://openreview.net/forum?id=DhxZVq1ZOo)
@@ -242,7 +258,6 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 - [SLOG: An Inductive Spectral Graph Neural Network Beyond Polynomial Filter](https://openreview.net/forum?id=0SrNCSklZx)
 - [How Interpretable Are Interpretable Graph Neural Networks?](https://openreview.net/forum?id=F3G2udCF3Q)
 - [Graph Neural Network Explanations are Fragile](https://openreview.net/forum?id=qIOSNyPPwB)
-- [Disentangled Continual Graph Neural Architecture Search with Invariant Modular Supernet](https://openreview.net/forum?id=Hg7C5YYifi)
 - [Graph Neural Networks with a Distribution of Parametrized Graphs](https://openreview.net/forum?id=VyfEv6EjKR)
 - [Cooperative Graph Neural Networks](https://openreview.net/forum?id=ZQcqXCuoxD)
 - [Generalization Error of Graph Neural Networks in the Mean-field Regime](https://openreview.net/forum?id=8h0x12p3zq)
@@ -485,7 +500,7 @@ The core themes of this year include Equivariant GNNs, OODs, Diffusions, Heterop
 
 
 **Missing any paper?**
-If any paper is absent from the list, please feel free to [open an issue](https://github.com/azminewasi/Awesome-Graph-Research-ICML2024/issues/new/choose) or submit a pull request. I'll gladly add that! Also, If I mis-categorized, please knock!
+If any paper is absent from the list, please feel free to [mail](mailto:azminetoushik.wasi@gmail.com) or [open an issue](https://github.com/azminewasi/Awesome-Graph-Research-ICML2024/issues/new/choose) or submit a pull request. I'll gladly add that! Also, If I mis-categorized, please knock!
 
 ---
 
