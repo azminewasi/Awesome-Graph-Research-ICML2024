@@ -10,7 +10,7 @@ A lot of [application](#apps) papers are available, although I expected to see m
 
 ## **All Topics:** 
 
-<details>
+<details open>
   <summary><b>View Topic list!</b></summary>
 
 - [GNN Theories](#theories)
@@ -61,6 +61,8 @@ A lot of [application](#apps) papers are available, although I expected to see m
 <a name="Weisfeiler-Leman " />
 
 #### Weisfeiler Leman 
+<!---[1] demonstrate that increased expressivity in GNNs does not guarantee better generalization performance, propose 1-WL-based architectures with provable generalization, and [2] enhance transformers alignment with the $k$-WL hierarchy for improved feasibility and predictive performance. [3] extend $2$-WL universality to point clouds with positions and velocities, introducing the WeLNet architecture.
+-->
 - [Weisfeiler-Leman at the margin: When more expressivity matters](https://openreview.net/forum?id=HTNgNt8CTJ)
 - [Aligning Transformers with Weisfeiler-Leman](https://openreview.net/forum?id=4FJJfYjUQR)
 - [Weisfeiler Leman for Euclidean Equivariant Machine Learning](https://openreview.net/forum?id=ApRKrKZJSk)
@@ -308,6 +310,9 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [Towards General Algorithm Discovery for Combinatorial Optimization: Learning Symbolic Branching Policy from Bipartite Graph](https://openreview.net/forum?id=ULleq1Dtaw)
 - [PDHG-Unrolled Learning-to-Optimize Method for Large-Scale Linear Programming](https://openreview.net/forum?id=2cXzNDe614)
 - [Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better](https://openreview.net/forum?id=FpbKoIPHxb)
+- [Gaussian Plane-Wave Neural Operator for Electron Density Estimation](https://openreview.net/forum?id=TvoG41N1Y3)
+
+
 
 <a name="LLM" />
 
@@ -405,7 +410,7 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [Projecting Molecules into Synthesizable Chemical Spaces](https://openreview.net/forum?id=scFlbJQdm1)
 - [Proteus: Exploring Protein Structure Generation for Enhanced Designability and Efficiency](https://openreview.net/forum?id=IckJCzsGVS)
 - [CHEMREASONER: Heuristic Search over a Large Language Models Knowledge Space using Quantum-Chemical Feedback](https://openreview.net/forum?id=3tJDnEszco)
-
+- [Gaussian Plane-Wave Neural Operator for Electron Density Estimation](https://openreview.net/forum?id=TvoG41N1Y3)
 
 <a name="GFlowNets" />
 
