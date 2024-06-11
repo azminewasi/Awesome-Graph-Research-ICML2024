@@ -174,7 +174,7 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [PANDA: Expanded Width-Aware Message Passing Beyond Rewiring](https://openreview.net/forum?id=J1NIXxiDbu)
 - [Pluvial Flood Emulation with Hydraulics-informed Message Passing](https://openreview.net/forum?id=kIHIA6Lr0B)
 - [On dimensionality of feature vectors in MPNNs](https://openreview.net/forum?id=UjDp4Wkq2V)
-
+- [Delaunay Graph: Addressing Over-Squashing and Over-Smoothing Using Delaunay Triangulation](https://openreview.net/forum?id=uyhjKoaIQa)
 
 <a name="FM" />
 
@@ -276,7 +276,6 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [Graph External Attention Enhanced Transformer](https://openreview.net/forum?id=0rV7VIrcjX)
 - [A Graph is Worth $K$ Words: Euclideanizing Graph using Pure Transformer](https://openreview.net/forum?id=zxxSJAVQPc)
 - [Convergence Guarantees for the DeepWalk Embedding on Block Models](https://openreview.net/forum?id=xwxUbBHC1q)
-- [Delaunay Graph: Addressing Over-Squashing and Over-Smoothing Using Delaunay Triangulation](https://openreview.net/forum?id=uyhjKoaIQa)
 - [Simulation of Graph Algorithms with Looped Transformers](https://openreview.net/forum?id=aA2326y3hf)
 - [Efficient PAC Learnability of Dynamical Systems Over Multilayer Networks](https://openreview.net/forum?id=2PVjIQdq7N)
 - [Gaussian Processes on Cellular Complexes](https://openreview.net/forum?id=afnyJfQddk)
