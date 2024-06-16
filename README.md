@@ -75,7 +75,7 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [Multi-Track Message Passing: Tackling Oversmoothing  and Oversquashing in Graph Learning via Preventing Heterophily Mixing](https://openreview.net/forum?id=1sRuv4cnuZ)
 - [Sign is Not a Remedy: Multiset-to-Multiset Message Passing for Learning on Heterophilic Graphs](https://openreview.net/forum?id=dGDFZM018a)
 - [Mitigating Oversmoothing Through Reverse Process of GNNs  for Heterophilic Graphs](https://openreview.net/forum?id=RLA4JTckXe)
-
+- [Feature Distribution on Graph Topology Mediates the Effect of Graph Convolution: Homophily Perspective](https://openreview.net/forum?id=buW1Bi6XFw)
 
 #### Hypergraph
 - [Fast Algorithms for Hypergraph PageRank with Applications to Semi-Supervised Learning](https://openreview.net/forum?id=sfQH4JJ4We)
@@ -490,7 +490,6 @@ A lot of [application](#apps) papers are available, although I expected to see m
 - [Predictive Coding beyond Correlations](https://openreview.net/forum?id=nTgzmXvuEA)
 - [When is Transfer Learning Possible?](https://openreview.net/forum?id=9yADTDHgGu)
 - [Optimal Exact Recovery in Semi-Supervised Learning: A Study of Spectral Methods and Graph Convolutional Networks](https://openreview.net/forum?id=8m4V6Fx6ma)
-- [Feature Distribution on Graph Topology Mediates the Effect of Graph Convolution: Homophily Perspective](https://openreview.net/forum?id=buW1Bi6XFw)
 - [Graph As Point Set](https://openreview.net/forum?id=b6yHkQpSwZ)
 - [CKGConv: General Graph Convolution with Continuous Kernels](https://openreview.net/forum?id=KgfGxXbjjE)
 - [REST: Efficient and Accelerated EEG Seizure Analysis through Residual State Updates](https://openreview.net/forum?id=9GbAea74O6)
